@@ -16,25 +16,25 @@
         <div class="form-group">
           <label for="beginFr">Are you looking for a user friendly programming language?  </label>
           <select class="form-control" id="beginFr" >
-            <option value="1">Yes</option>
-            <option value="2">No</option>
+            <option value="user friendly">User Friendly</option>
+            <option value="no preference">No Preference</option>
           </select>         </div>
 
         <div class="form-group">
-          <label for="frontEnd">Are you interested in Front End Web Development? </label>
-          <select class="form-control" id="frontEnd">
-            <option value="1">Yes</option>
-            <option value="2">No</option>
+          <label for="frontBackEnd">Are you interested in Front or Back End Web Development? </label>
+          <select class="form-control" id="frontBackEnd">
+            <option value="front end">Front End</option>
+            <option value="back end">Back End</option>
           </select>        </div>
   
   
-        <div class="form-group">
+        <!-- <div class="form-group">
           <label for="backEnd">Are you interested in Back End Web Development? </label>
           <select class="form-control" id="backEnd">
             <option value="1">Yes</option>
             <option value="2">No</option>
           </select>
-        </div>
+        </div> -->
   
         <div class="form-group">
         <label for="machineLearnAi">Are you interested in Machine Learning and AI?</label>
@@ -45,7 +45,7 @@
         </div>
   
           <div class="form-group">
-          <label for="mobileDev">Do you want to develop mobile applications?</label>
+          <label for="mobileDev">Do you want to develop Mobile Applications?</label>
           <select class="form-control" id="mobileDev">
             <option value="1">Yes</option>
             <option value="2">No</option>
@@ -59,21 +59,21 @@
         <div id="javascript">
           <p>Based on your answers, we recommend Javascript as your first programming language!</p>
           <p>
-            Thank you for shopping with Kitten Mittens <span class="name"></span>. An order for <span class="size"></span> <span class="pattern"></span> mittens was placed on <span class="date"></span>. Your order will be shipped in 3-5 business days!
+            You input that you wanted a <span class="beginFr"></span> programming language. Javascript is a great programming language for you!
           </p>
         </div>
 
         <div id="python">
           <p>Based on your answers, we recommend Python as your first programming language!</p>
           <p>
-            Thank you for shopping with Kitten Mittens <span class="name"></span>. An order for <span class="size"></span> <span class="pattern"></span> mittens was placed on <span class="date"></span>. Your order will be shipped in 3-5 business days!
+            You input that you were interested in <span class="frontBackEnd"></span> development. As a result, we believe Python is a great programming language for you!
           </p>
         </div>
 
         <div id="swift">
-          <p>Based on your answers, we recommend Ruby as your first programming language!</p>
+          <p>Based on your answers, we recommend Swift as your first programming language!</p>
           <p>
-            Thank you for shopping with Kitten Mittens <span class="name"></span>. An order for <span class="size"></span> <span class="pattern"></span> mittens was placed on <span class="date"></span>. Your order will be shipped in 3-5 business days!
+            You answered <span class="mobileDev"></span> when prompted about developing mobile applications. We think Swift would be a perfect fit!
           </p>
         </div>
   </body>
