@@ -1,16 +1,16 @@
 $(document).ready(function () {
   $("form#questions").submit(function (event) {
-    const beginFr = $("#beginFr").val();
+    const beginFrd = $("#beginFr").val();
     const frontBackEnd = $("#frontBackEnd").val();
     const machineLearnAi = $("#machineLearnAi").val();
     const mobileDev = $("#mobileDev").val();
-    console.log(beginFr);
+    console.log(beginFrd);
     console.log(frontBackEnd);
     console.log(machineLearnAi);
     console.log(mobileDev);
 
     if (
-      beginFr === "user friendly" &&
+      beginFrd === "user friendly" &&
       frontBackEnd === "front end" &&
       machineLearnAi === "no" &&
       mobileDev === "no"
@@ -19,7 +19,7 @@ $(document).ready(function () {
       $("#python").hide();
       $("#javascript").show();
     } else if (
-      beginFr === "user friendly" &&
+      beginFrd === "user friendly" &&
       frontBackEnd === "back end" &&
       machineLearnAi === "yes" &&
       mobileDev === "no"
@@ -29,7 +29,7 @@ $(document).ready(function () {
       $(".backEnd").text(frontBackEnd);
       $("#python").show();
     } else if (
-      beginFr === "no preference" &&
+      beginFrd === "no preference" &&
       frontBackEnd === "both" &&
       machineLearnAi === "no" &&
       mobileDev === "yes"
