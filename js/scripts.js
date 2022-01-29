@@ -1,13 +1,9 @@
 $(document).ready(function () {
   $("form#questions").submit(function (event) {
-    const beginFrd = $("#beginFr").val();
+    const beginFrd = $("#userFriendly").val();
     const frontBackEnd = $("#frontBackEnd").val();
     const machineLearnAi = $("#machineLearnAi").val();
     const mobileDev = $("#mobileDev").val();
-    console.log(beginFrd);
-    console.log(frontBackEnd);
-    console.log(machineLearnAi);
-    console.log(mobileDev);
 
     if (
       beginFrd === "user friendly" &&

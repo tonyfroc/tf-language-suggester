@@ -4,53 +4,52 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
     <link href="http://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet">
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <title>Programming Language Suggestor</title>
   </head>
   <body>
     <div class="container">
       <h1>👨‍💻 Programming Language Suggestor 👨‍💻</h1>
-      <h6>Are you interested in a career in Software Engineering? Fill out the questions below to get a sense of which programming language might be best suited for you!</h6>
-      <label for="yearsExp">1. What is your current programming experience?  </label>
+      <h6>Fill out the questions below to get a sense of which programming language is best suited for you!</h6>
+      <label for="codeExp">1. What is your current programming experience?  </label>
       <form id="questions">
         <div class="form-check form-check-inline">
           <label>
-            <input type="radio" name="flavor" value="chocolate" checked>
+            <input type="radio" name="codeExp" value="0 to 6 Months" checked>
             0 to 6 Months
           </label>
         </div>
         <div class="form-check form-check-inline">
           <label>
-            <input type="radio" name="flavor" value="vanilla">
+            <input type="radio" name="codeExp" value="6 to 12 months">
             6 to 12 months
           </label>
         </div>
         <div class="form-check form-check-inline">
           <label>
-            <input type="radio" name="flavor" value="cookiesandcream">
+            <input type="radio" name="codeExp" value="1 Year +">
             1 Year +
           </label>
         </div>
         <div class="form-group">
-          <label for="beginFr">2. Are you looking for a user friendly programming language?  </label>
-          <select class="form-control" id="beginFr" >
+          <label for="userFriendly">2. Are you looking for a user-friendly programming language?  </label>
+          <select class="form-control" id="userFriendly" >
             <option disabled selected value> -- Please Select an Option -- </option>
-            <option value="user friendly">User Friendly</option>
-            <option value="user hostile">User Hostile</option>
+            <option value="user friendly">User-Friendly</option>
             <option value="no preference">No Preference</option>
           </select>         </div>
 
         <div class="form-group">
           <label for="frontBackEnd">3. Are you interested in Front or Back End Web Development? </label>
           <select class="form-control" id="frontBackEnd">
-            <option disabled selected value> -- Please Please Select an Option -- </option>
-            <option value="front end">Front End</option>
-            <option value="back end">Back End</option>
+            <option disabled selected value> -- Please Select an Option -- </option>
+            <option value="front end">Front-End</option>
+            <option value="back end">Back-End</option>
             <option value="both">Both</option>
 
           </select>        
@@ -81,7 +80,7 @@
         <div id="javascript">
           <h2>JavaScript</h2>
           <p>
-            You input that you wanted a user friendly, front end programming language. Javascript is a great programming language for you!
+            You input that you wanted a user-friendly front-end programming language. We think Javascript is a great programming language for you!
           </p>
           <i class="fab fa-js-square" style="font-size:50px"></i>
         </div>
@@ -89,7 +88,7 @@
         <div id="python">
           <h2>Python</h2>
           <p>
-            You input that you were interested in user friendly, back end programming language that deals with Machine Learning and AI. As a result, we believe Python is a great programming language for you!
+            You input that you were interested in a user-friendly back-end programming language, along with Machine Learning and AI. As a result, we believe Python is a great programming language for you!
           </p>
           <i class="fab fa-python" style="font-size:50px"></i>
         </div>
@@ -97,7 +96,7 @@
         <div id="swift">
           <h2>Swift</h2>
           <p>
-            Swift is a full stack language geared towards mobile application development. We think Swift would be a perfect fit for you!
+            We think Swift would be a perfect fit for you! Swift is a full stack language geared towards mobile application development. 
           </p>
           <i class="fab fa-swift" style="font-size:50px"></i>
         </div>
