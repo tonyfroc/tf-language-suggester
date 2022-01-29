@@ -26,7 +26,6 @@ $(document).ready(function () {
     ) {
       $("#swift").hide();
       $("#javascript").hide();
-      $(".backEnd").text(frontBackEnd);
       $("#python").show();
     } else if (
       beginFrd === "no preference" &&

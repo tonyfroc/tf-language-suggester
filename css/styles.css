@@ -39,19 +39,19 @@ p {
 }
 
 #javascript {
-  display: none;
+  /* display: none; */
   text-align: center;
   color: #e5c07b;
 }
 
 #python {
-  display: none;
+  /* display: none; */
   text-align: center;
   color: #e06c75;
 }
 
 #swift {
-  display: none;
+  /* display: none; */
   text-align: center;
   color: #c678dd;
 }
